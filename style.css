@@ -1,0 +1,530 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* NavBar */
+.main-head {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 3;
+}
+
+.navBar {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 7vh;
+}
+
+#text {
+  display: flex;
+}
+
+#text p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navBar h1 {
+  font-size: 2.5rem;
+  color: #00a7ae;
+}
+
+.navBar p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.navBar button {
+  padding: 1rem;
+  background-color: #00a7ae;
+  border: none;
+  color: white;
+  width: 8vw;
+  border-radius: 0.3rem;
+  height: 4.3vh;
+  cursor: pointer;
+  outline: none;
+}
+
+.navBar button:hover {
+  color: #00a7ae;
+  background-color: white;
+  transition: all 0.3s ease-out;
+}
+
+/* NavBar end */
+
+/* Landing Page */
+
+.container-landingContent {
+  height: 77vh;
+}
+
+.rowLanding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 12.5vw;
+  margin-left: 12.5vw;
+  margin-top: 10vh;
+}
+
+.description {
+  height: 50vh;
+  width: 40vw;
+  padding-top: 5rem;
+  margin-top: 5rem;
+  color: #333333;
+}
+
+.description a {
+  text-decoration: none;
+  color: white;
+}
+
+.imgContainer {
+  width: 35vw;
+  text-align: right;
+  margin-top: 5rem;
+}
+
+.imgContainer img {
+  width: 83%;
+  height: auto;
+}
+#greet {
+  font-size: 3rem;
+}
+
+#greet span {
+  color: #00a7ae;
+}
+
+#lorem {
+  width: 27vw;
+  font-size: 1.4rem;
+}
+
+.description button {
+  padding: 1rem;
+  background-color: #00a7ae;
+  border: none;
+  color: white;
+  width: 12vw;
+  border-radius: 0.3rem;
+  height: 4.3vh;
+  cursor: pointer;
+  outline: none;
+  margin-top: 2rem;
+}
+
+.cvTransition {
+  display: none;
+}
+/* Landing Page end */
+
+/* About Me */
+.container-aboutMe {
+  height: auto;
+}
+
+.rowAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+#undrawImg {
+  height: 69.6rem;
+  width: 54.5rem;
+}
+
+.aboutImg {
+  height: 50%;
+  width: 50%;
+}
+
+.aboutText {
+  height: 50vh;
+  width: 40vw;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  color: #333333;
+}
+
+.aboutText h1 {
+  font-size: 3rem;
+}
+
+.aboutText p {
+  font-size: 1.4rem;
+}
+
+#quoteOne,
+#quoteTwo {
+  font-weight: bold;
+}
+/* About Me end */
+
+/* Skills */
+
+.container-skills {
+  height: auto;
+  padding-bottom: 5vh;
+  background-color: #d8d8d875;
+}
+
+.container-skills h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 2.5rem;
+  font-size: 4rem;
+  color: #333333;
+}
+
+.own {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 4vh;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+.webDev {
+  height: auto;
+  width: 30%;
+  text-align: center;
+}
+
+.webDev img {
+  width: 100%;
+  height: auto;
+}
+
+.webDev h2 {
+  font-size: 3rem;
+}
+
+.webDev p {
+  font-size: 1.8rem;
+}
+
+.webDesign {
+  height: auto;
+  width: 30%;
+  text-align: center;
+}
+
+.webDesign h2 {
+  font-size: 3rem;
+}
+
+.webDesign p {
+  font-size: 1.8rem;
+}
+
+.webDesign img {
+  width: 100%;
+  height: auto;
+}
+
+.dataAnalysis {
+  height: auto;
+  width: 30%;
+  text-align: center;
+}
+
+.dataAnalysis h2 {
+  font-size: 3rem;
+}
+
+.dataAnalysis p {
+  font-size: 1.8rem;
+}
+
+.dataAnalysis img {
+  width: 100%;
+  height: auto;
+}
+
+.learning {
+  margin-top: 5vh;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+.learning h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.reactContainer {
+  height: auto;
+  width: 100%;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.reactIcon {
+  font-size: 20vh;
+  color: #00a7ae;
+  animation: rotation 10s infinite linear;
+}
+
+.reactContainer h1 {
+  font-size: 3rem;
+}
+
+.reactContainer p {
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
+
+#and {
+  font-weight: bold;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* Skills end */
+
+/* Experience */
+.container-experience {
+  height: 80vh;
+  background-color: #00a7ae;
+}
+
+.rowExperience {
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  padding-top: 3vh;
+}
+
+.imgExperience h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 5rem;
+  padding-top: 5vh;
+}
+#expImg {
+  width: 100%;
+  padding-top: 12vh;
+}
+
+#expImgMobile {
+  display: none;
+}
+/* Experience end */
+
+/* Portofolio */
+.container-portofolio {
+  height: 80vh;
+}
+
+.rowPortofolio {
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.portofolioText {
+  width: 50%;
+  height: 50%;
+  padding-top: 25vh;
+}
+
+.portofolioText h1 {
+  font-size: 3rem;
+  width: 85%;
+}
+
+.portofolioText p {
+  font-size: 1.3rem;
+  width: 85%;
+}
+
+.portofolioContent {
+  width: 50%;
+  padding-top: 10vh;
+  justify-items: center;
+}
+
+.portofolioContent img {
+  width: 100%;
+}
+
+.git,
+.link {
+  margin-top: 2vh;
+  font-size: 5rem;
+  cursor: pointer;
+  color: #00a7ae;
+  padding-right: 2rem;
+}
+
+/* Portofolio end */
+
+/* Contact Me */
+.container-contactMe {
+  height: 60vh;
+  margin-top: 10rem;
+}
+
+.rowContact {
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  background-color: #00a7ae;
+  border-radius: 4rem;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.illustrationContact {
+  width: 50%;
+}
+
+.illustrationContact img {
+  width: 100%;
+  height: auto;
+}
+.textContact {
+  width: 50%;
+  color: white;
+}
+
+.textContact h1 {
+  font-size: 4rem;
+  margin-top: 10vh;
+}
+
+.textContact p {
+  font-size: 1.3rem;
+}
+
+.formContact {
+  color: #333333;
+  height: 50%;
+  width: 90%;
+  margin-top: 3.2rem;
+  border-radius: 1rem 1rem 0px 0px;
+  background-color: white;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.contactInfo label {
+  margin-left: 2vw;
+  font-weight: bold;
+}
+.formName {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  outline: none;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 2px solid #1c2e3d;
+}
+
+.formEmail {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  outline: none;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 2px solid #1c2e3d;
+}
+
+.formLinkedin {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 10vh;
+  outline: none;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 2px solid #1c2e3d;
+}
+
+.formBtn {
+  color: white;
+  background-color: #00a7ae;
+  border: none;
+  outline: none;
+  position: absolute;
+  margin-top: 27.4vh;
+  width: 100%;
+  height: 30%;
+  border-radius: 0px 0px 1rem 1rem;
+  cursor: pointer;
+}
+/* Contact Me end */
+
+/* Footer */
+.container-footer {
+  margin-top: 32vh;
+  padding-bottom: 2vh;
+  height: auto;
+  background: #00a7ae;
+}
+
+.rowFooter {
+  margin-right: 12.5vw;
+  margin-left: 12.5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerText {
+  padding-top: 2rem;
+  color: white;
+}
+
+.logoFooter {
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.logoFooter a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer end */

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./transition.css"
+      media="(min-width: 767px) and (max-width: 1303px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./tablet.css"
+      media="(min-width: 600px) and (max-width: 766px)"
+    />
+    <link rel="stylesheet" href="./mobile.css" media="(max-width: 600px)" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.css" />
+    <title>Rares</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="main-head">
+      <div class="navBar">
+        <a href="#landing"><h1>Rares</h1></a>
+        <div id="text">
+          <p><a href="#about">ABOUT </a></p>
+          <p><a href="#portfolio">PORTFOLIO</a></p>
+          <p><a href="#experience">EXPERIENCE</a></p>
+        </div>
+        <button class="contactMe">CONTACT ME</button>
+      </div>
+    </nav>
+    <!-- end -->
+    <main>
+      <!-- Landing page -->
+      <div class="container-landingContent">
+        <div class="rowLanding" id="landing">
+          <div class="description">
+            <span id="greet">
+              <h1>Hi!<span> I'm Rares.</span></h1>
+              <h1>Great to see you.</h1>
+            </span>
+            <br />
+
+            <p id="lorem">
+              On my way to becoming a fantastic web developer. <br />
+              Always interested in new challenges. <br />
+            </p>
+            <br />
+            <button class="cv">
+              <a href="CV-Rares.pdf" download>DOWNLOAD CV</a>
+            </button>
+          </div>
+          <div class="imgContainer">
+            <img src="./svg/landingPhotoTest2.svg" alt="" />
+          </div>
+          <button class="cvTransition">
+            <a href="CV-Rares.pdf" download>DOWNLOAD CV</a>
+          </button>
+        </div>
+      </div>
+      <!-- end -->
+
+      <!-- About me -->
+      <div class="container-aboutMe" id="about">
+        <div class="rowAbout">
+          <div class="aboutImg">
+            <img src="./svg/undraw_folder_files_nweq.svg" id="undrawImg" />
+          </div>
+          <div class="aboutText">
+            <br />
+            <h1>About me</h1>
+            <br />
+            <p>
+              Well I am a passionate and creative student who was always
+              fascinated about the internet and all the things that it can
+              offer. Through ambition and curiosity I started to craft different
+              kinds of websites and web designs. <br />
+              <br />
+              I’m constantly learning web technologies and other design related
+              topics, currently playing around with React&Redux. <br />
+              <br />
+              My next goal is to achieve a position as a junior web developer
+              where I can interact with great people that can help to overcome
+              my actual form.
+            </p>
+            <br />
+            <p>
+              I enjoy being competitive with previous versions of myself. I
+              strive every day to answer these two questions: <br />
+              <span id="quoteOne"
+                >What can I do today to be better than yesterday?</span
+              >
+              &
+              <span id="quoteTwo"
+                >How can I make more progress towards my goals?</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+
+      <!-- Skills -->
+      <div class="container-skills">
+        <h1>What I can do</h1>
+        <br />
+        <div class="own">
+          <div class="webDev">
+            <img src="./svg/webDevSkills.svg" alt="" />
+            <br />
+            <h2>WebDevelopment</h2>
+            <p>HTML5, CSS(Bootstrap), JS(ES6)</p>
+          </div>
+          <div class="webDesign">
+            <img src="./svg/webDesignSkills.svg" alt="" />
+            <br />
+            <h2>WebDesign</h2>
+            <p>Photoshop, Illustrator and Figma</p>
+          </div>
+          <div class="dataAnalysis">
+            <img src="./svg/dataAnalysisSkills.svg" alt="" />
+            <br />
+            <h2>DataAnalysis</h2>
+            <p>
+              Google Analytics, Descriptive Statistics, <br />
+              R Statistical Computing
+            </p>
+          </div>
+        </div>
+        <br />
+        <div class="learning">
+          <div class="reactContainer">
+            <i class="fab fa-react reactIcon"></i>
+            <h2 id="loading">Loading...</h2>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+
+      <!-- Experience -->
+      <div class="container-experience" id="experience">
+        <div class="rowExperience">
+          <div class="imgExperience">
+            <h1>My Work Experience</h1>
+            <img src="./svg/experienceLgVar2.svg" id="expImg" />
+            <img src="./svg/experienceLgVarMobile.svg" id="expImgMobile" />
+          </div>
+        </div>
+      </div>
+
+      <!-- end -->
+
+      <!-- Portofolio -->
+      <div class="container-portofolio" id="portfolio">
+        <div class="rowPortofolio">
+          <div class="portofolioText">
+            <h1>Let you see my portfolio</h1>
+            <br />
+            <p>
+              For the moment my portfolio is kind of empty because I just
+              started this amazing journey. On Github, you can see some of the
+              projects that I realised so far. Also, don't forget that is just a
+              matter of time to overcome this state.
+            </p>
+            <br />
+            <div class="socialMedia">
+              <a
+                href="https://www.linkedin.com/in/rare%C8%99-ciubotaru-1005/"
+                target="blank"
+                ><i class="fab fa-linkedin link"></i
+              ></a>
+              <a
+                href="https://github.com/NeOn4824?tab=repositories"
+                target="blank"
+                ><i class="fab fa-github git"></i
+              ></a>
+            </div>
+          </div>
+          <div class="portofolioContent">
+            <img src="./svg/portfolio.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+
+      <!-- Contact -->
+      <div class="container-contactMe" id="contact">
+        <div class="rowContact">
+          <div class="illustrationContact">
+            <img src="./svg/GroupcontactIll.svg" alt="" />
+          </div>
+          <div class="textContact">
+            <h1>Do not hesitate to put your contacts below</h1>
+            <br />
+            <p>Drop you contact here to make a communication</p>
+            <br />
+            <div class="formContact">
+              <form
+                class="contactInfo"
+                action="https://formspree.io/myynaqpv"
+                method="POST"
+              >
+                <label for="name">NAME</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="formName"
+                  autocomplete="off"
+                />
+                <br />
+                <label for="Email">EMAIL</label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="formEmail"
+                  autocomplete="off"
+                />
+                <br />
+                <label for="linkedinProfile">LINKEDIN PROFILE</label>
+                <input
+                  type="text"
+                  name="linkedinProfile"
+                  class="formLinkedin"
+                  autocomplete="off"
+                />
+                <button type="submit" value="Send" class="formBtn">
+                  SEND NOW
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div class="container-footer">
+        <div class="rowFooter">
+          <div class="logoFooter">
+            <h1><a href="#landing">Rares</a></h1>
+          </div>
+          <div class="footerText">
+            <h3>
+              The information you write above will only be used for
+              communication purpose.
+            </h3>
+            <h4>*LinkedIn profile is not a must*</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
